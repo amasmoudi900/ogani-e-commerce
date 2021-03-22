@@ -715,3 +715,6 @@ function validateEdit(id) {
   localStorage.setItem('products', JSON.stringify(products));
   location.reload();
 }
+function hello(ch) {
+  alert(ch);
+}
